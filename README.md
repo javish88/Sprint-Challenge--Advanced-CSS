@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+##  Difference for me, is that responsive is more of a smooth transition when you making your screen larger or smaller so the website response to the layout determine by your screen size. As in adaptive I feel there is a snap fix there is no smoothness in transition when the screen is going either big or small.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+## For me mobile first is you are building your website layout for phones first. Meaning your layout might be all columns stack on each other while you scroll down . Desktop first is when you design for the bigger screen. Your layout will be different . Your nav might be in a row instead of a column. Also if going into mobile first you approach to media queries changes . Mobile first query goes into min-width and if desktop first it goes into max-width.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+##  When it is put on the html tag it makes the font-size 10px. It helps with calculations when sizing fonts. 1rem = 10px when putting the font-size at 62.5%. 62.5% of 16px = 10px . So 1 rem makes 10px. Making it easier to do the math when adjusting the sizing. But it can be used in different ways also not just font-sizing.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+## It's CSS on overdrive. Still takes the same rules as CSS , but it adds to it. So for instance LESS. LESS is a tool we use in CSS that will make it easier to organize our CSS code. LESS also looks like CSS so it won't be too hard to grasb once you figure out the tools that LESS brings. LESS is a tool it does not replace CSS. HTML still takes the CSS file for the design.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+## At first it was upsetting that we have learned vanilla CSS then told hey we are not gonna write it like this anymore. But once I saw it in action and figured out its a great tool to use to compile our CSS it was fun. Made it simpler to organize all of our css . The concept that gave me trouble was the nesting. At first I thought it was the same CSS style . Write a style for a class and move on. But when using LESS it was oh I can nest my classes and it will still come out the same . So once I got the hang at the nesting and parametric mixin I had more fun with it.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
