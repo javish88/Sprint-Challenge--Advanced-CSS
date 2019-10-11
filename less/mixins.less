@@ -1,1 +1,24 @@
 // Mixins Here
+
+.flexing() { 
+    display: flex;
+    justify-content: @justify;
+    align-content: @align;
+}
+
+.sign-space-btn(@bg-color: @btn-bg-color, @width: 200px, @btn-color: white) { // button sign up
+    display: block;
+    background-color: @bg-color;
+    margin: 0 10px 20px;
+    cursor: pointer;
+    width: @width;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: @btn-color;
+
+    &:hover {
+        background-color: #87CEEB;
+        color: black;
+    }
+} // end of button sign up
